@@ -2,7 +2,7 @@
 
 To run the Framework:
 A. Clone the repo to your system
-B execute the command mvn clean install -U
+B. execute the command mvn clean install -U
 C. then execute mvn test
 
 PLease make sure maven and git are installed in the system. 
