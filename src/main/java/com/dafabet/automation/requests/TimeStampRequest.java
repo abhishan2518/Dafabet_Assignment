@@ -1,4 +1,5 @@
-package com.dafabet.automation.dto;
+package com.dafabet.automation.requests;
+
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -9,7 +10,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class TimeStampDTO {
+public class TimeStampRequest {
     private String UnixTimeStamp;
     private String DateFormatTimeStamp;
 }
